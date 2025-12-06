@@ -104,7 +104,7 @@ const MyPage = () => {
 												href={"/Progress"}
 												
 												rel="noopener noreferrer"
-												download>
+												>
 												Daily Progress
 											</Link>|
  
@@ -116,7 +116,7 @@ const MyPage = () => {
 												href={"/Timeline"}
 												
 												rel="noopener noreferrer"
-												download>
+													>
 												Timeline
 											</Link>|
 										</Button>
