@@ -9,7 +9,9 @@ module.exports = {
 		extend: {
 		},
 	},
-	plugins: [],
+	plugins: [
+		  require('tailwind-scrollbar'),
+	],
 	// Add this to reduce CSS file size in production
 	future: {
 		removeDeprecatedGapUtilities: true,

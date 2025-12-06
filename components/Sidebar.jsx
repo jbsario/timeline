@@ -30,7 +30,7 @@ const Sidebar = () => {
 						<FontAwesomeIcon icon={faHome} className="text-xl" />
 					</button>
 				</li>
-				<li data-menuanchor="about">
+				{/* <li data-menuanchor="about">
 					<button onClick={() => handleMoveToSection(2)}>
 						<FontAwesomeIcon icon={faUser} className="text-xl" />
 					</button>
@@ -42,7 +42,7 @@ const Sidebar = () => {
 							className="text-xl"
 						/>
 					</button>
-				</li>
+				</li> */}
 				<li data-menuanchor="contact">
 					<button onClick={() => handleMoveToSection(4)}>
 						<FontAwesomeIcon

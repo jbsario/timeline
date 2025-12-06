@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
 				<ClientTopProgressBar />
 				<Navbar />
 				{children}
-				<Chat />
+				{/* <Chat /> */}
 				<Analytics />
 			</body>
 		</html>

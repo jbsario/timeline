@@ -23,14 +23,16 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
+import VerticalTimelineSection from '../Progress/page';
 const MyPage = () => {
+		// anchors: ["home", "Progress", "Timeline", "contact"],
 	const fullpageOptions = {
 		anchors: ["home", "Progress", "Timeline", "contact"],
 		scrollingSpeed: 1000,
 		licenseKey: "gplv3-license",
 		menu: "#sidebar",
 		lockAnchors: false,
+		scrollOverflow: true,
 	};
 
 	return (
@@ -98,18 +100,25 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											{/* <Link
-												href={"/docs/cv.pdf"}
-												target="_blank"
+											<Link
+												href={"/Progress"}
+												
 												rel="noopener noreferrer"
 												download>
-												Progress
-											</Link>| */}
-
-												<a href="#Progress">Daily Progress</a>
+												Daily Progress
+											</Link>|
+ 
+												{/* <a href="#Progress"></a> */}
 										</Button>
 										<Button variation="secondary">
-											<a href="#Timeline">Timeline</a>
+											{/* <a href="#Timeline">Timeline</a> */}
+											<Link
+												href={"/Timeline"}
+												
+												rel="noopener noreferrer"
+												download>
+												Timeline
+											</Link>|
 										</Button>
 									</motion.div>
 								</motion.div>
@@ -173,7 +182,7 @@ const MyPage = () => {
 											delay: 0.1,
 											type: "spring",
 										}}>
-										About Me
+										Progress
 									</motion.h1>
 									<Hr />
 									<motion.p
@@ -193,12 +202,36 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
+
+											
 										<Button variation="primary">
 											<Link href="/about">Learn More</Link>
 										</Button>
 									</motion.div>
+
+									 <VerticalTimelineSection />
 								</div>
 							</div>
+							<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
+									<motion.h1
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+										initial={{ x: -100, opacity: 0 }}
+										whileInView={{ x: 0, opacity: 1 }}
+										transition={{
+											delay: 0.1,
+											type: "spring",
+										}}>
+										Progress
+									</motion.h1>
+									</div>
+									<div
+  className="w-full h-[90%] mt-6 overflow-y-auto px-3 py-3"
+  style={{ touchAction: 'pan-y' }}
+></div>
+
+							   {/* <VerticalTimelineSection /> */}
+						
+
 						</div>
 						<div className="section">
 							<div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
@@ -333,14 +366,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:jbsario14@gmail.com?subject=Hello&body=Hello Jade,">
+											jbsario14@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:jbsario14@gmail.com?subject=Hello&body=Hello Jade,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -351,7 +384,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faEnvelope} className="text-3xl" />
 										</motion.a>
 
-										<motion.a
+										{/* <motion.a
 											href="https://github.com/Alvalens"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -363,8 +396,8 @@ const MyPage = () => {
 												opacity: { delay: 0.3 },
 											}}>
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
-										</motion.a>
-										<motion.a
+										</motion.a> */}
+										{/* <motion.a
 											href="https://www.instagram.com/alvalens_/"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -379,8 +412,8 @@ const MyPage = () => {
 												icon={faInstagram}
 												className="text-3xl"
 											/>
-										</motion.a>
-										<motion.a
+										</motion.a> */}
+										{/* <motion.a
 											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -392,8 +425,8 @@ const MyPage = () => {
 												opacity: { delay: 0.5 },
 											}}>
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
-										</motion.a>
-										<motion.a
+										</motion.a> */}
+										{/* <motion.a
 											href="https://discordapp.com/users/bloody#6118"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -405,7 +438,7 @@ const MyPage = () => {
 												opacity: { delay: 0.6 },
 											}}>
 											<FontAwesomeIcon icon={faDiscord} className="text-3xl" />
-										</motion.a>
+										</motion.a> */}
 									</div>
 								</div>
 							</div>

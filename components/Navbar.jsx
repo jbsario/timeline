@@ -132,7 +132,7 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 								</motion.h2>
 							</div>
 						</Link>
-						<Link href="/about">
+						{/* <Link href="/about">
 							<div
 								onClick={handleItemClick}
 								className="text-2xl font-bold text-white">
@@ -157,7 +157,7 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 									Projects
 								</motion.h2>
 							</div>
-						</Link>
+						</Link> */}
 						<Link href="/#contact">
 							<div
 								onClick={handleItemClick}
