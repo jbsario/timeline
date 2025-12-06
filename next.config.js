@@ -22,6 +22,8 @@ module.exports = withBundleAnalyzer({
 
 		return config;
 	},
+	turbopack: {} // enables Turbopack with empty config
+	,
 	async headers() {
 		return [
 			{
