@@ -1,0 +1,36 @@
+npm install react-vertical-timeline-component
+
+ if not working 
+ Steps to Fix
+1️⃣ Clean npm cache
+npm cache clean --force
+
+2️⃣ Delete existing node_modules & package-lock.json
+rm -rf node_modules
+rm package-lock.json
+
+
+Or on Windows PowerShell:
+
+Remove-Item -Recurse -Force .\node_modules
+Remove-Item -Force .\package-lock.json
+
+3️⃣ Reinstall all dependencies
+npm install
+
+4️⃣ Install vertical timeline component with legacy peer deps (if needed)
+npm install react-vertical-timeline-component --legacy-peer-deps
+
+
+This avoids conflicts between the template’s React version and the timeline component’s peer dependencies.
+
+5️⃣ Verify install
+npm list react-vertical-timeline-component
+
+
+You should see something like:
+
+react-vertical-timeline-component@3.7.0
+
+source :
+https://github.com/stephane-monnot/react-vertical-timeline
