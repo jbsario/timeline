@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/favicon.ico/route": "/favicon.ico",
+  "/Progress/page": "/Progress",
+  "/(root)/page": "/",
+  "/about/page": "/about",
+  "/projects/[slug]/page": "/projects/[slug]",
+  "/projects/page": "/projects",
+  "/projects/archive/page": "/projects/archive"
+}

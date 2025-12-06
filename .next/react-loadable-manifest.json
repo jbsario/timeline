@@ -1,0 +1,21 @@
+{
+  "components\\ClientTopProgressBar.jsx -> @/components/TopProgressbar": {
+    "id": 1590,
+    "files": [
+      "static/chunks/879.f8c8b4413d09c88c.js",
+      "static/chunks/590.dc2240fd3d10d6f9.js"
+    ]
+  },
+  "node_modules\\.pnpm\\next@16.0.7_@babel+core@7.0_120390391e20a9ee42b94036fba45770\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 5014,
+    "files": [
+      "static/chunks/14.30035b0e0aa32f5c.js"
+    ]
+  },
+  "node_modules\\.pnpm\\next@16.0.7_@babel+core@7.0_120390391e20a9ee42b94036fba45770\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 5395,
+    "files": [
+      "static/chunks/395.c289a32b53b72db0.js"
+    ]
+  }
+}
