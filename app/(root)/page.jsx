@@ -1,5 +1,5 @@
 // Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// This file is part of KenDev-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -56,7 +56,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="KenDev"
 												placeholder="blur"
 											/>
 										</div>
@@ -136,7 +136,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="KenDev"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -168,7 +168,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="KenDev"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -258,7 +258,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="KenDev Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -328,7 +328,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="KenDev Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -385,7 +385,7 @@ const MyPage = () => {
 										</motion.a>
 
 										{/* <motion.a
-											href="https://github.com/Alvalens"
+											href="https://github.com/KenDev"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -398,7 +398,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a> */}
 										{/* <motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/KenDev_/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
