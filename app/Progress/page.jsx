@@ -42,7 +42,7 @@ const updates = [
         {
     id: 6,
     date: '2025-12-06',
-    title: 'Concrete pouring completed for kitchen floor slab',
+    title: 'Concrete pouring completed for kitchen ground floor slab',
     imageUrl: 'https://res.cloudinary.com/dnlsg8f0j/image/upload/v1765035610/IMG_3692_nsmwtj.jpg',
   },
   // ...add remaining updates
