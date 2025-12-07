@@ -18,6 +18,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "generate-sitemap": "node generate-sitemap.js"
   },
   "dependencies": {

@@ -4,8 +4,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/Progress/page": "/Progress",
   "/(root)/page": "/",
-  "/about/page": "/about",
-  "/projects/[slug]/page": "/projects/[slug]",
+  "/projects/archive/page": "/projects/archive",
   "/projects/page": "/projects",
-  "/projects/archive/page": "/projects/archive"
+  "/about/page": "/about",
+  "/projects/[slug]/page": "/projects/[slug]"
 }
